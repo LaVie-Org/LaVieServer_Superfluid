@@ -15,7 +15,7 @@ const SuperfluidSDK = require("@superfluid-finance/js-sdk");
 
 const web3 = new Web3(provider);
 web3.eth.accounts.wallet.add(process.env.pkey);
-const port = process.env.port || 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -87,8 +87,8 @@ async function run() {
         res.sendStatus(sfRes);
     })
 
-    server.listen(port,() => {
-        console.log(`Listening on port ${port} . . .`);
+    server.listen(PORT,() => {
+        console.log(`Listening on port ${PORT} . . .`);
     });
 }
 
