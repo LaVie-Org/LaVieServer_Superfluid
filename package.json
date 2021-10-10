@@ -1,0 +1,39 @@
+{
+  "name": "cm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "@3id/connect": "^0.1.6",
+    "@ceramicnetwork/3id-did-resolver": "^1.2.7",
+    "@ceramicnetwork/http-client": "^1.0.7",
+    "@ceramicnetwork/stream-caip10-link": "^1.0.7",
+    "@ceramicnetwork/stream-tile": "^1.0.7",
+    "@ceramicstudio/idx": "^0.12.1",
+    "@ceramicstudio/idx-tools": "^0.11.0",
+    "@stablelib/random": "^1.0.1",
+    "@superfluid-finance/js-sdk": "^0.5.4",
+    "@truffle/contract": "^4.3.37",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "3id-did-provider": "^1.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dids": "^2.4.0",
+    "express": "^4.17.1",
+    "key-did-provider-ed25519": "^1.1.0",
+    "node-fetch": "^2.6.1",
+    "pg": "^8.7.1",
+    "request": "^2.88.2",
+    "truffle-hdwallet-provider": "^1.0.17",
+    "web3": "^1.6.0",
+    "web3.storage": "^3.2.0"
+  }
+}
