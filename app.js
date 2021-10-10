@@ -71,6 +71,9 @@ async function run() {
             return 400;
         }
     }
+    app.get('/', async (req, res) =>  {
+        res.send("app is running . . .");
+    });
 
     app.post('/start', async (req, res) =>  {
         let x = req.body;
